@@ -1,1 +1,29 @@
-# NIYAMR-Assignment
+# NIYAMR AI - Universal Credit Act 2025 Agent
+
+## 📌 Objective
+Build a mini AI agent capable of reading, summarizing, and analyzing the **Universal Credit Act 2025**. This solution extracts structured data from PDF format and performs legislative compliance checks using a local LLM pipeline.
+
+## 🛠 Architecture & Tools Used
+
+### [cite_start]1. Data Extraction: **Docling** [cite: 59]
+* **Why?** Unlike standard OCR, Docling preserves complex document structures like tables and headers, which are critical for reading legal Acts.
+
+### 2. Vector Database: **ChromaDB**
+* **Model:** `nomic-embed-text-v1.5`
+* **Why?** Nomic has a long context window (8192 tokens), making it ideal for retrieving large chunks of legal text without losing context.
+
+### 3. LLM Reasoning: **Qwen 2.5-7B (Instruct)**
+* **Why?** One of the best open-source 7B models with strong instruction-following capabilities.
+* **Optimization:** Loaded with **BitsAndBytes (4-bit quantization)** to run efficiently on consumer hardware (Free Colab T4/L4 GPUs).
+
+## 📂 Project Structure
+
+```bash
+├── data/                   # Input PDF storage
+├── PDF_Extractor.ipynb     # Original development notebook
+├── output/                 # Final JSON reports
+├── src/                    # Source code
+│   └── main.py             # Main agent logic
+├── requirements.txt        # Dependencies
+└── README.md               # Documentation
+```
