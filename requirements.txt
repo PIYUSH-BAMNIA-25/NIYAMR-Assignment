@@ -1,0 +1,13 @@
+docling
+pydantic
+langchain
+langchain-chromadb
+langchain-community
+langchain-huggingface
+chromadb
+bitsandbytes
+accelerate
+peft
+transformers
+torch
+scipy
