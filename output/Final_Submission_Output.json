@@ -1,0 +1,57 @@
+{
+    "task_3_extraction": {
+        "definitions": [
+            "'pre-2026 claimant' has the meaning in regulation 28A(1)",
+            "'severe conditions criteria claimant' has the meaning in regulation 41A(2)"
+        ],
+        "obligations": "",
+        "responsibilities": "",
+        "eligibility": "",
+        "payments": [
+            "2.3%",
+            "3.1%",
+            "4.0%",
+            "4.8%"
+        ],
+        "penalties": "",
+        "record_keeping": "In regulation 45 (medical examination): Claimants must attend medical examinations or be considered as not being a severe conditions criteria claimant."
+    },
+    "task_4_rule_checks": [
+        {
+            "rule": "Act must define key terms",
+            "status": "pass",
+            "evidence": "'pre-2026 claimant' and'severe conditions criteria claimant' are defined.",
+            "confidence": 100
+        },
+        {
+            "rule": "Act must specify eligibility criteria",
+            "status": "pass",
+            "evidence": "'Claimant with limited capability for work and work-related activity, other than a pre-2026 claimant, a severe conditions criteria claimant or a claimant who is terminally ill' indicates certain eligibility criteria based on medical condition status.",
+            "confidence": 90
+        },
+        {
+            "rule": "Act must specify responsibilities of the administering authority",
+            "status": "pass",
+            "evidence": "The amendments refer to regulations and powers related to welfare reform indicating administrative processes and roles such as'regulation 2','regulation 28A', etc., suggesting involvement of authorities like the Secretary of State.",
+            "confidence": 90
+        },
+        {
+            "rule": "Act must include enforcement or penalties",
+            "status": "fail",
+            "evidence": "No mention of penalties or enforcement mechanisms within these amendments.",
+            "confidence": 100
+        },
+        {
+            "rule": "Act must include payment calculation or entitlement structure",
+            "status": "pass",
+            "evidence": "Table provided shows the relevant uplift percentages for different tax years, directly impacting payments through increases calculated using the Consumer Prices Index (CPI).",
+            "confidence": 100
+        },
+        {
+            "rule": "Act must include record-keeping or reporting requirements",
+            "status": "fail",
+            "evidence": "There's no reference to maintaining records or reporting requirements in the given context.",
+            "confidence": 100
+        }
+    ]
+}
