@@ -5,7 +5,7 @@ Build a mini AI agent capable of reading, summarizing, and analyzing the **Unive
 
 ## 🛠 Architecture & Tools Used
 
-### [cite_start]1. Data Extraction: **Docling** [cite: 59]
+### 1. Data Extraction: **Docling**
 * **Why?** Unlike standard OCR, Docling preserves complex document structures like tables and headers, which are critical for reading legal Acts.
 
 ### 2. Vector Database: **ChromaDB**
