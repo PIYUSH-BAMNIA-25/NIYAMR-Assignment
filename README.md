@@ -19,13 +19,11 @@ Build a mini AI agent capable of reading, summarizing, and analyzing the **Unive
 ## 📂 Project Structure
 
 ```bash
-├── data/                   # Input PDF storage
-├── PDF_Extractor.ipynb     # Original development notebook
-├── output/                 # Final JSON reports
-├── src/                    # Source code
-│   └── main.py             # Main agent logic
-├── requirements.txt        # Dependencies
-└── README.md               # Documentation
+├── data/                                           # Input PDF storage
+├── NIYAMR AI - Universal Credit Act 2025 Agent     # Original development notebook
+├── output/                                         # Final JSON reports        
+├── requirements.txt                                # Dependencies
+└── README.md                                       # Documentation
 ```
 ## 🚀 How to Run
 
