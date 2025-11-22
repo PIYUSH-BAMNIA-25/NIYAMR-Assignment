@@ -27,3 +27,16 @@ Build a mini AI agent capable of reading, summarizing, and analyzing the **Unive
 ├── requirements.txt        # Dependencies
 └── README.md               # Documentation
 ```
+## 🚀 How to Run
+
+### **1. Install Dependencies:**
+```
+pip install -r requirements.txt
+```
+### **2. Run the Agent:**
+```
+python src/main.py
+```
+### **3. Upload PDF when ask**
+
+### **4. Wait Till get the final file named "Final_Submission_Output.json"**
